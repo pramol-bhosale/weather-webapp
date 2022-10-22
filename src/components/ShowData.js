@@ -5,7 +5,7 @@ function ShowData(){
 const [show, setShow]=useState(false)
 const[location, setLocation]=useState()
 const[data, setData]=useState({})
-const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=f7ba7ce904b68e5e3afb9f353e50727e`;
+const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=<your api goes here>`;
 
 
 const fetchData=(event)=>{
